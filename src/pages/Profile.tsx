@@ -8,7 +8,7 @@ import { ACHIEVEMENTS } from '../lib/achievements';
 import { COUNTRIES, getFlagEmoji } from '../data/countries';
 import { useAuth } from '../hooks/useAuth';
 import Avatar from '../components/Avatar';
-import type { Profile as ProfileType, Achievement, Match, SetScore, PlayerOfTheWeek } from '../types';
+import type { Profile as ProfileType, Achievement, Match, SetScore, /* PlayerOfTheWeek */ } from '../types';
 
 export default function Profile() {
   const { id } = useParams<{ id: string }>();

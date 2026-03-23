@@ -209,8 +209,8 @@ export default function AddMatch() {
     }
   }
 
-  const playerOptions = players.filter((p) => {
-    const usedIds = [player1Id, player2Id, player3Id, player4Id].filter(Boolean);
+  const playerOptions = players.filter(() => {
+    // const usedIds = [player1Id, player2Id, player3Id, player4Id].filter(Boolean);
     return true; // Show all, validation happens on submit
   });
 
